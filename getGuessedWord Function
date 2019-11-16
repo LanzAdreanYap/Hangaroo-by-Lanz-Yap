@@ -5,3 +5,4 @@ def getGuessedWord(secretWord,lettersGuessed):
         elif (S in lettersGuessed) == False:
             secretWord = secretWord.replace(S,'_ ')
     return(secretWord)
+    
